@@ -1,0 +1,10 @@
+@import "content.css";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: sans-serif;
+	overflow-x: hidden;
+}

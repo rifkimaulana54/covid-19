@@ -1,0 +1,144 @@
+.jumbotron {
+	border-radius: 0;
+	width: 100%;
+	height: auto;
+	background-color: #1E90FF;
+	padding: 50px 0px 20px 0;
+}
+
+.container {
+	margin-left: 50px;
+	padding: 0;
+}
+#logo img{
+	border-radius: 15px;
+	margin: -50px 0 0 50px;
+}
+
+.jumbotron .container h1 {
+	font-size: 3em;
+	margin-bottom: 30px;
+}
+
+.jumbotron .container p {
+	float: left;
+	margin: 0 25px 50px 0;
+	font-size: 1.5em;
+	width: 70%;
+	text-align: justify;
+}
+
+.total_kasus {
+	clear: both;
+	display: flex;
+	margin: 50px 0 10px 50px;
+}
+
+.total_kasus p {
+	margin: 0 0 10px 10px;
+}
+
+.box {
+	float: left;
+	width: 340px;
+	height: 190px;
+	margin-left: 25px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+.box:nth-child(1) {
+	background-color: red;
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
+
+.box:nth-child(2) {
+	background-color: orange;
+	margin-bottom: 45px;
+}
+
+.box:nth-child(3) {
+	background-color: yellow;
+	margin-bottom: 45px;
+}
+
+.box:nth-child(4) {
+	background-color: #00FF7F;
+	margin-top: -20px;
+}
+
+content {
+	margin: 50px;
+}
+
+.box h4{
+	text-align: center;
+	background-color: #1E90FF;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.box h2 {
+	margin-top: 50px;
+	margin-left: 150px;
+}
+
+.card {
+	clear: both;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.history {
+	width: 90%;
+	margin: 30px auto 50px 30px;
+	overflow-y: scroll;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+th{
+	text-align: center;
+	padding: 16px;
+}
+
+td {
+	padding: 16px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+
+th {
+	background-color: orange;
+	color: white;
+}
+
+th:nth-child(even) {
+}
+
+footer-bar {
+	display: flex;
+}
+
+.copyright {
+	clear: both;
+	width: 100%;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	background-color: black;
+}
+
+@media screen and (max-width: 513px) {
+	.history {
+		width: 100%;
+	}
+}
