@@ -1,2 +1,2 @@
-# rifkimalana54.github.io/src/index.html
+# rifkimalana54.github.io
 website info covid
