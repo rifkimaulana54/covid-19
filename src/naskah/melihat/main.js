@@ -1,5 +1,3 @@
-const port = process.env.PORT
-
 function main() {
 
 	const getIndonesia = () => {
